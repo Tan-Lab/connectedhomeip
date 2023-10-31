@@ -52,7 +52,7 @@ public:
      *   @return CHIP_NO_ERROR On success.
      *   @return Other Value indicating it failed to adjust window covering position.
      */
-    virtual CHIP_ERROR HandleMovement(WindowCoveringType type) = 0;
+    virtual CHIP_ERROR HandleMovement(WindowCoveringType type, int openPercent) = 0;
 
     /**
      * @brief
