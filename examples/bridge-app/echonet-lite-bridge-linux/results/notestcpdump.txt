@@ -1,0 +1,9 @@
+after 12s: start brided app
+
+after 70s : start adding Devices 
+
+16:24: end adding Devices 
+16:24-16:25: testing commands
+
+16:26:41 : turn on all lights
+16:27:05: turn off all lights

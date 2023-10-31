@@ -1,0 +1,15 @@
+==1255346== Massif, a heap profiler
+==1255346== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==1255346== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==1255346== Command: ./out/debug/chip-bridge-app
+==1255346== Parent PID: 268537
+==1255346== 
+==1255346== Warning: unimplemented fcntl command: 524288
+==1255346== 
+==1255346== Process terminating with default action of signal 2 (SIGINT)
+==1255346==    at 0x54467ED: select (select.c:69)
+==1255346==    by 0x28FA82: chip::System::LayerImplSelect::WaitForEvents() (SystemLayerImplSelect.cpp:636)
+==1255346==    by 0x2E2DC6: chip::DeviceLayer::Internal::GenericPlatformManagerImpl_POSIX<chip::DeviceLayer::PlatformManagerImpl>::_RunEventLoop() (GenericPlatformManagerImpl_POSIX.ipp:219)
+==1255346==    by 0x188219: chip::DeviceLayer::PlatformManager::RunEventLoop() (PlatformManager.h:403)
+==1255346==    by 0x18B89D: main (main.cpp:810)
+==1255346== 

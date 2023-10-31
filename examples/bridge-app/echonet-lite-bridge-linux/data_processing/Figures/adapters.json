@@ -1,0 +1,3404 @@
+{
+   "endpoints" : [
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 2,
+               "echonetDataType" : 33,
+               "echonetDataType_String" : "INT16U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1024,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "CANNOT_CONVERT_ECHONET_DEVICE_ERROR 13",
+         "eojClassCode" : "0x0d",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000d01",
+         "matterDeviceId" : "0x0106",
+         "matterDeviceName" : "ILLUMINANCE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001101",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001201",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 2,
+               "echonetDataType" : 33,
+               "echonetDataType_String" : "INT16U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1024,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "CANNOT_CONVERT_ECHONET_DEVICE_ERROR 13",
+         "eojClassCode" : "0x0d",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000d01",
+         "matterDeviceId" : "0x0106",
+         "matterDeviceName" : "ILLUMINANCE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001101",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001201",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001101",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 2,
+               "echonetDataType" : 33,
+               "echonetDataType_String" : "INT16U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1024,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "CANNOT_CONVERT_ECHONET_DEVICE_ERROR 13",
+         "eojClassCode" : "0x0d",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000d01",
+         "matterDeviceId" : "0x0106",
+         "matterDeviceName" : "ILLUMINANCE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001101",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001201",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 2,
+               "echonetDataType" : 33,
+               "echonetDataType_String" : "INT16U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1024,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "CANNOT_CONVERT_ECHONET_DEVICE_ERROR 13",
+         "eojClassCode" : "0x0d",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000d01",
+         "matterDeviceId" : "0x0106",
+         "matterDeviceName" : "ILLUMINANCE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001201",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 2,
+               "echonetDataType" : 33,
+               "echonetDataType_String" : "INT16U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1024,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "CANNOT_CONVERT_ECHONET_DEVICE_ERROR 13",
+         "eojClassCode" : "0x0d",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000d01",
+         "matterDeviceId" : "0x0106",
+         "matterDeviceName" : "ILLUMINANCE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001101",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001201",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 2,
+               "echonetDataType" : 33,
+               "echonetDataType_String" : "INT16U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1024,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "CANNOT_CONVERT_ECHONET_DEVICE_ERROR 13",
+         "eojClassCode" : "0x0d",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000d01",
+         "matterDeviceId" : "0x0106",
+         "matterDeviceName" : "ILLUMINANCE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001101",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001201",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 2,
+               "echonetDataType" : 33,
+               "echonetDataType_String" : "INT16U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1024,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "CANNOT_CONVERT_ECHONET_DEVICE_ERROR 13",
+         "eojClassCode" : "0x0d",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000d01",
+         "matterDeviceId" : "0x0106",
+         "matterDeviceName" : "ILLUMINANCE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001101",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001201",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000701",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000702",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000701",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000702",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000703",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000701",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000702",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000701",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000702",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000701",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000702",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000701",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000702",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000701",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000702",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000701",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000702",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000701",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000702",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000701",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000702",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000701",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 177,
+               "mapValueEchonet2Matter" : {
+                  "0x41" : "0x01",
+                  "0x42" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x42",
+                  "0x01" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1030,
+               "matterDataLength" : 1,
+               "matterDataType" : 24,
+               "matterDataType_String" : "BITMAP8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Human detection sensor",
+         "eojClassCode" : "0x07",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x000702",
+         "matterDeviceId" : "0x0107",
+         "matterDeviceName" : "OCCUPANCY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029001",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029002",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029001",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029002",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029001",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029002",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029001",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029002",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029001",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029002",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029001",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029002",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029001",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029002",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029001",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029002",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029001",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 2.5399999618530273
+            }
+         ],
+         "echonetDeviceName" : "General light",
+         "eojClassCode" : "0x90",
+         "eojGroupCode" : "0x02",
+         "eojString" : "0x029002",
+         "matterDeviceId" : "0x0101",
+         "matterDeviceName" : "DIMMABLE LIGHT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0010000000474974513
+            }
+         ],
+         "echonetDeviceName" : " Electric Sensor (Pressure sensor) ",
+         "eojClassCode" : "0x22",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002201",
+         "matterDeviceId" : "0x0305",
+         "matterDeviceName" : "FLOW_SENSOR_for_ELECTRIC_ENERGY_SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0010000000474974513
+            }
+         ],
+         "echonetDeviceName" : " Electric Sensor (Pressure sensor) ",
+         "eojClassCode" : "0x22",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002202",
+         "matterDeviceId" : "0x0305",
+         "matterDeviceName" : "FLOW_SENSOR_for_ELECTRIC_ENERGY_SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0010000000474974513
+            }
+         ],
+         "echonetDeviceName" : " Electric Sensor (Pressure sensor) ",
+         "eojClassCode" : "0x22",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002203",
+         "matterDeviceId" : "0x0305",
+         "matterDeviceName" : "FLOW_SENSOR_for_ELECTRIC_ENERGY_SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0010000000474974513
+            }
+         ],
+         "echonetDeviceName" : " Electric Sensor (Pressure sensor) ",
+         "eojClassCode" : "0x22",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002204",
+         "matterDeviceId" : "0x0305",
+         "matterDeviceName" : "FLOW_SENSOR_for_ELECTRIC_ENERGY_SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0010000000474974513
+            }
+         ],
+         "echonetDeviceName" : " Electric Sensor (Pressure sensor) ",
+         "eojClassCode" : "0x22",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002201",
+         "matterDeviceId" : "0x0305",
+         "matterDeviceName" : "FLOW_SENSOR_for_ELECTRIC_ENERGY_SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0010000000474974513
+            }
+         ],
+         "echonetDeviceName" : " Electric Sensor (Pressure sensor) ",
+         "eojClassCode" : "0x22",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002202",
+         "matterDeviceId" : "0x0305",
+         "matterDeviceName" : "FLOW_SENSOR_for_ELECTRIC_ENERGY_SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0010000000474974513
+            }
+         ],
+         "echonetDeviceName" : " Electric Sensor (Pressure sensor) ",
+         "eojClassCode" : "0x22",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002203",
+         "matterDeviceId" : "0x0305",
+         "matterDeviceName" : "FLOW_SENSOR_for_ELECTRIC_ENERGY_SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0010000000474974513
+            }
+         ],
+         "echonetDeviceName" : " Electric Sensor (Pressure sensor) ",
+         "eojClassCode" : "0x22",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002204",
+         "matterDeviceId" : "0x0305",
+         "matterDeviceName" : "FLOW_SENSOR_for_ELECTRIC_ENERGY_SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0010000000474974513
+            }
+         ],
+         "echonetDeviceName" : " Electric Sensor (Pressure sensor) ",
+         "eojClassCode" : "0x22",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002205",
+         "matterDeviceId" : "0x0305",
+         "matterDeviceName" : "FLOW_SENSOR_for_ELECTRIC_ENERGY_SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0010000000474974513
+            }
+         ],
+         "echonetDeviceName" : " Electric Sensor (Pressure sensor) ",
+         "eojClassCode" : "0x22",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002201",
+         "matterDeviceId" : "0x0305",
+         "matterDeviceName" : "FLOW_SENSOR_for_ELECTRIC_ENERGY_SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0010000000474974513
+            }
+         ],
+         "echonetDeviceName" : " Electric Sensor (Pressure sensor) ",
+         "eojClassCode" : "0x22",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002202",
+         "matterDeviceId" : "0x0305",
+         "matterDeviceName" : "FLOW_SENSOR_for_ELECTRIC_ENERGY_SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0010000000474974513
+            }
+         ],
+         "echonetDeviceName" : " Electric Sensor (Pressure sensor) ",
+         "eojClassCode" : "0x22",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002203",
+         "matterDeviceId" : "0x0305",
+         "matterDeviceName" : "FLOW_SENSOR_for_ELECTRIC_ENERGY_SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0010000000474974513
+            }
+         ],
+         "echonetDeviceName" : " Electric Sensor (Pressure sensor) ",
+         "eojClassCode" : "0x22",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002204",
+         "matterDeviceId" : "0x0305",
+         "matterDeviceName" : "FLOW_SENSOR_for_ELECTRIC_ENERGY_SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 226,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Flow sensor",
+         "eojClassCode" : "0x25",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002501",
+         "matterDeviceId" : "0x0306",
+         "matterDeviceName" : "FLOW SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 226,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Flow sensor",
+         "eojClassCode" : "0x25",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002502",
+         "matterDeviceId" : "0x0306",
+         "matterDeviceName" : "FLOW SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 4,
+               "echonetDataType" : 35,
+               "echonetDataType_String" : "INT32U",
+               "epc" : 226,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1028,
+               "matterDataLength" : 2,
+               "matterDataType" : 33,
+               "matterDataType_String" : "INT16U",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Flow sensor",
+         "eojClassCode" : "0x25",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x002503",
+         "matterDeviceId" : "0x0306",
+         "matterDeviceName" : "FLOW SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0x0103",
+         "matterDeviceName" : "ONOFF LIGHT SWITCH"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd02",
+         "matterDeviceId" : "0x0103",
+         "matterDeviceName" : "ONOFF LIGHT SWITCH"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0x0103",
+         "matterDeviceName" : "ONOFF LIGHT SWITCH"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd02",
+         "matterDeviceId" : "0x0103",
+         "matterDeviceName" : "ONOFF LIGHT SWITCH"
+      },
+      {
+         "MatchingRules" : null,
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0xf103",
+         "matterDeviceName" : "CANNOT_CONVERT_MATTER_DEVICE_ERROR 61699"
+      },
+      {
+         "MatchingRules" : null,
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0xf103",
+         "matterDeviceName" : "CANNOT_CONVERT_MATTER_DEVICE_ERROR 61699"
+      },
+      {
+         "MatchingRules" : null,
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0xf103",
+         "matterDeviceName" : "CANNOT_CONVERT_MATTER_DEVICE_ERROR 61699"
+      },
+      {
+         "MatchingRules" : null,
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0xf103",
+         "matterDeviceName" : "CANNOT_CONVERT_MATTER_DEVICE_ERROR 61699"
+      },
+      {
+         "MatchingRules" : null,
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0xf103",
+         "matterDeviceName" : "CANNOT_CONVERT_MATTER_DEVICE_ERROR 61699"
+      },
+      {
+         "MatchingRules" : null,
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0xf103",
+         "matterDeviceName" : "CANNOT_CONVERT_MATTER_DEVICE_ERROR 61699"
+      },
+      {
+         "MatchingRules" : null,
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0xf103",
+         "matterDeviceName" : "CANNOT_CONVERT_MATTER_DEVICE_ERROR 61699"
+      },
+      {
+         "MatchingRules" : null,
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0xf103",
+         "matterDeviceName" : "CANNOT_CONVERT_MATTER_DEVICE_ERROR 61699"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 179,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 8,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 1.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 143,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 3,
+               "matterClusterId" : 80,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 40,
+               "echonetDataType_String" : "INT8S",
+               "epc" : 187,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 513,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 100.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 40,
+               "echonetDataType_String" : "INT8S",
+               "epc" : 190,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 1,
+               "matterClusterId" : 513,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 100.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 176,
+               "mapValueEchonet2Matter" : {
+                  "0x40" : "0x09",
+                  "0x41" : "0x01",
+                  "0x42" : "0x03",
+                  "0x43" : "0x04",
+                  "0x44" : "0x08",
+                  "0x45" : "0x07"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x40",
+                  "0x01" : "0x41",
+                  "0x03" : "0x42",
+                  "0x04" : "0x43",
+                  "0x05" : "0x40",
+                  "0x06" : "0x40",
+                  "0x07" : "0x45",
+                  "0x08" : "0x44",
+                  "0x09" : "0x40"
+               },
+               "matterAttributeId" : 28,
+               "matterClusterId" : 513,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 160,
+               "mapValueEchonet2Matter" : {
+                  "0x31" : "0x00",
+                  "0x32" : "0x01",
+                  "0x33" : "0x02",
+                  "0x34" : "0x02",
+                  "0x35" : "0x02",
+                  "0x36" : "0x02",
+                  "0x37" : "0x02",
+                  "0x38" : "0x03",
+                  "0x41" : "0x05"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x32",
+                  "0x02" : "0x35",
+                  "0x03" : "0x38",
+                  "0x04" : "0x35",
+                  "0x05" : "0x41",
+                  "0x06" : "0x41"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 514,
+               "matterDataLength" : 1,
+               "matterDataType" : 48,
+               "matterDataType_String" : "ENUM8",
+               "valueMultiplierForEchonetValue" : 0.0
+            },
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 48,
+               "echonetDataType_String" : "ENUM8",
+               "epc" : 238,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 2,
+               "matterClusterId" : 514,
+               "matterDataLength" : 1,
+               "matterDataType" : 48,
+               "matterDataType_String" : "ENUM8",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Home air conditioner",
+         "eojClassCode" : "0x30",
+         "eojGroupCode" : "0x01",
+         "eojString" : "0x013001",
+         "matterDeviceId" : "0x0300",
+         "matterDeviceName" : "HEATING COOLING UNIT"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0x0103",
+         "matterDeviceName" : "ONOFF LIGHT SWITCH"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0x0103",
+         "matterDeviceName" : "ONOFF LIGHT SWITCH"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 128,
+               "mapValueEchonet2Matter" : {
+                  "0x30" : "0x01",
+                  "0x31" : "0x00"
+               },
+               "mapValueMatter2Echonet" : {
+                  "0x00" : "0x31",
+                  "0x01" : "0x30"
+               },
+               "matterAttributeId" : 0,
+               "matterClusterId" : 6,
+               "matterDataLength" : 1,
+               "matterDataType" : 16,
+               "matterDataType_String" : "BOOLEAN",
+               "valueMultiplierForEchonetValue" : 0.0
+            }
+         ],
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0x0103",
+         "matterDeviceName" : "ONOFF LIGHT SWITCH"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001101",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001201",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : null,
+         "echonetDeviceName" : "Switch",
+         "eojClassCode" : "0xfd",
+         "eojGroupCode" : "0x05",
+         "eojString" : "0x05fd01",
+         "matterDeviceId" : "0xf103",
+         "matterDeviceName" : "CANNOT_CONVERT_MATTER_DEVICE_ERROR 61699"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001102",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001103",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001104",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001202",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001203",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001101",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001103",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001104",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001202",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001203",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001204",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001203",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001102",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001103",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001104",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001202",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001203",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001101",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001102",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 41,
+               "echonetDataType_String" : "INT16S",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1026,
+               "matterDataLength" : 2,
+               "matterDataType" : 41,
+               "matterDataType_String" : "INT16S",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Temperature sensor",
+         "eojClassCode" : "0x11",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001103",
+         "matterDeviceId" : "0x0302",
+         "matterDeviceName" : "TEMPERATURE SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001202",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      },
+      {
+         "MatchingRules" : [
+            {
+               "echonetDataLength" : 1,
+               "echonetDataType" : 32,
+               "echonetDataType_String" : "INT8U",
+               "epc" : 224,
+               "mapValueEchonet2Matter" : null,
+               "mapValueMatter2Echonet" : null,
+               "matterAttributeId" : 0,
+               "matterClusterId" : 1029,
+               "matterDataLength" : 1,
+               "matterDataType" : 32,
+               "matterDataType_String" : "INT8U",
+               "valueMultiplierForEchonetValue" : 10.0
+            }
+         ],
+         "echonetDeviceName" : "Humidity sensor",
+         "eojClassCode" : "0x12",
+         "eojGroupCode" : "0x00",
+         "eojString" : "0x001203",
+         "matterDeviceId" : "0x0307",
+         "matterDeviceName" : "HUMIDITY SENSOR"
+      }
+   ]
+}
