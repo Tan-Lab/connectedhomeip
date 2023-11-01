@@ -42,11 +42,11 @@ This is a bridge-app that convert **ECHONET Lite devices** into **Matter endpoin
 
   
 
-``
+```
 
   
 
-cd examples/bridge-app/echonetlinux
+cd examples/bridge-app/echonet-lite-bridge-linux
 
   
 
@@ -54,7 +54,7 @@ make
 
   
 
-``
+```
 
   
 
